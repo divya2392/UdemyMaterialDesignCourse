@@ -9,9 +9,13 @@
     </style>
 
     <style name="CharaterOverflow">
-
         <item name="android:textColor">@color/colorError</item>
+    </style>
 
+    <style name="Raisedbutton" parent="Widget.AppCompat.Button.Colored">
+
+        <item name="backgroundTint">@color/colorRaisedBtn</item>
+        <item name="android:textColor">@color/colorRaiseBtntext</item>
 
     </style>
 
