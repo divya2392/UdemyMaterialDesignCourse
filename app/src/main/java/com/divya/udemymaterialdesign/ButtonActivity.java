@@ -6,9 +6,10 @@ import android.support.v7.widget.AppCompatButton;
 import android.view.View;
 import android.widget.Toast;
 
-public class ButtonActivity extends AppCompatActivity {
+public class ButtonActivity extends AppCompatActivity implements View.OnClickListener{
 
     AppCompatButton raisedButton;
+    AppCompatButton flatButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,13 +17,24 @@ public class ButtonActivity extends AppCompatActivity {
         setContentView(R.layout.activity_button);
 
         raisedButton = (AppCompatButton)findViewById(R.id.raised_btn);
-        raisedButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        raisedButton.setOnClickListener(this);
 
-                Toast.makeText(ButtonActivity.this, "Raised Button Clicked", Toast.LENGTH_SHORT).show();
+        flatButton = (AppCompatButton)findViewById(R.id.flat_btn);
+        flatButton.setOnClickListener(this);
+    }
 
-            }
-        });
+    @Override
+    public void onClick(View view) {
+
+        int id = view.getId();
+
+        if(id == R.id.raised_btn)
+        {
+            Toast.makeText(ButtonActivity.this, "Raised Button Clicked", Toast.LENGTH_SHORT).show();
+
+        }else if(id == R.id.flat_btn)
+        {
+            Toast.makeText(ButtonActivity.this, "Flat Button Clicked", Toast.LENGTH_SHORT).show();
+        }
     }
 }

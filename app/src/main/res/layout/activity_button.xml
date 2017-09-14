@@ -13,7 +13,14 @@
         android:text="@string/raised_button"
         style="@style/Raisedbutton"/>
 
-
-
+    <android.support.v7.widget.AppCompatButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/flat_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/raised_btn"
+        android:layout_marginTop="24dp"
+        android:text="@string/flat_button"
+        style="@style/Flatbutton"/>
 
 </RelativeLayout>

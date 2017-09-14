@@ -6,4 +6,5 @@
     <color name="colorError">#EE5252</color>
     <color name="colorRaisedBtn">#4CAF50</color>
     <color name="colorRaiseBtntext">#ffffff</color>
+    <color name="colorFlatbtn">#2196F3</color>
 </resources>
