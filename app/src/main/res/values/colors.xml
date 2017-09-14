@@ -7,4 +7,8 @@
     <color name="colorRaisedBtn">#4CAF50</color>
     <color name="colorRaiseBtntext">#ffffff</color>
     <color name="colorFlatbtn">#2196F3</color>
+    <color name="colorFab">#E040FB</color>
+    <color name="colorSwitch">#40C4FF</color>
+    <color name="colorEnable">#FF5252</color>
+    <color name="colorDisable">#FFAB40</color>
 </resources>

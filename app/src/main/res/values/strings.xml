@@ -5,4 +5,7 @@
     <string name="password_hint">password:</string>
     <string name="raised_button">RAISED BUTTON</string>
     <string name="flat_button">FLAT BUTTON</string>
+    <string name="switch_on_off">Switch ON/OFF</string>
+    <string name="switch_off_on">Switch OFF/ON</string>
+    <string name="check_box">Check Box</string>
 </resources>

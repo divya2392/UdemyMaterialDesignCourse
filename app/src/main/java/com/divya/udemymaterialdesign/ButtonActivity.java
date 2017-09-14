@@ -1,5 +1,6 @@
 package com.divya.udemymaterialdesign;
 
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.AppCompatButton;
@@ -10,6 +11,7 @@ public class ButtonActivity extends AppCompatActivity implements View.OnClickLis
 
     AppCompatButton raisedButton;
     AppCompatButton flatButton;
+    FloatingActionButton fab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +23,9 @@ public class ButtonActivity extends AppCompatActivity implements View.OnClickLis
 
         flatButton = (AppCompatButton)findViewById(R.id.flat_btn);
         flatButton.setOnClickListener(this);
+
+        fab = (FloatingActionButton)findViewById(R.id.fab_btn);
+        fab.setOnClickListener(this);
     }
 
     @Override
@@ -35,6 +40,10 @@ public class ButtonActivity extends AppCompatActivity implements View.OnClickLis
         }else if(id == R.id.flat_btn)
         {
             Toast.makeText(ButtonActivity.this, "Flat Button Clicked", Toast.LENGTH_SHORT).show();
+
+        }else if(id == R.id.fab_btn)
+        {
+            Toast.makeText(ButtonActivity.this, "FAB Button Clicked", Toast.LENGTH_SHORT).show();
         }
     }
 }
