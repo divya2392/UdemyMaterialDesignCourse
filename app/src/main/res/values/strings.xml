@@ -8,4 +8,7 @@
     <string name="switch_on_off">Switch ON/OFF</string>
     <string name="switch_off_on">Switch OFF/ON</string>
     <string name="check_box">Check Box</string>
+    <string name="radio_button">Radio Button</string>
+    <string name="radio_button_1">Radio Button 1</string>
+    <string name="radio_button_2">Radio Button 2</string>
 </resources>

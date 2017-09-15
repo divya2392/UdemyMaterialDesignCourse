@@ -38,5 +38,11 @@
 
     </style>
 
+    <style name="RadioButtonTheme">
+
+        <item name="colorAccent">@color/colorRadioButton</item>
+
+    </style>
+
 
 </resources>

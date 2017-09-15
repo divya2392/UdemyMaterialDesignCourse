@@ -11,11 +11,12 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".TextActivity" />
-        <activity android:name=".ButtonActivity"></activity>
-        <activity android:name=".SwitchActivity">
+        <activity android:name=".ButtonActivity" />
+        <activity android:name=".SwitchActivity"></activity>
+        <activity android:name=".CheckBoxActivity">
 
         </activity>
-        <activity android:name=".CheckBoxActivity">
+        <activity android:name=".RadioButtonActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
