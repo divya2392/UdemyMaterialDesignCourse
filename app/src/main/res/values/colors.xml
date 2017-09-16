@@ -13,4 +13,5 @@
     <color name="colorDisable">#000000</color>
     <color name="colorRadioButton">#69F0AE</color>
     <color name="colorProgressBar">#E040FB</color>
+    <color name="colorAlertDialog">#448AFF</color>
 </resources>
