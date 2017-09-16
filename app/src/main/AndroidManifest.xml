@@ -12,11 +12,10 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".TextActivity" />
         <activity android:name=".ButtonActivity" />
-        <activity android:name=".SwitchActivity"></activity>
-        <activity android:name=".CheckBoxActivity">
-
-        </activity>
-        <activity android:name=".RadioButtonActivity">
+        <activity android:name=".SwitchActivity" />
+        <activity android:name=".CheckBoxActivity"/>
+        <activity android:name=".RadioButtonActivity"/>
+        <activity android:name=".ProgressBarActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

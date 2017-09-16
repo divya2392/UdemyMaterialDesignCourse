@@ -13,34 +13,30 @@
     </style>
 
     <style name="Raisedbutton" parent="Widget.AppCompat.Button.Colored">
-
         <item name="backgroundTint">@color/colorRaisedBtn</item>
         <item name="android:textColor">@color/colorRaiseBtntext</item>
-
     </style>
 
     <style name="Flatbutton" parent="Widget.AppCompat.Button.Borderless">
-
         <item name="android:textColor">@color/colorFlatbtn</item>
-
     </style>
 
     <style name="SwitchTheme">
-
        <item name="colorAccent">@color/colorSwitch</item>
-
     </style>
 
     <style name="CheckBoxTheme">
-
         <item name="colorAccent">@color/colorEnable</item>
         <item name="colorControlNormal">@color/colorDisable</item>
-
     </style>
 
     <style name="RadioButtonTheme">
-
         <item name="colorAccent">@color/colorRadioButton</item>
+    </style>
+
+    <style name="ProgressBarTheme" parent="Widget.AppCompat.ProgressBar">
+
+        <item name="colorAccent">@color/colorProgressBar</item>
 
     </style>
 
