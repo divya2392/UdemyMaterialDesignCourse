@@ -11,10 +11,11 @@ import java.util.TimerTask;
 
 public class ProgressBarActivity extends AppCompatActivity {
 
-    ProgressBar progressBar;
+    ProgressBar progressBar,interminateProgressBar;
     Handler handler;
     Runnable runnable;
     Timer timer;
+    int i=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,13 +25,29 @@ public class ProgressBarActivity extends AppCompatActivity {
         progressBar = (ProgressBar)findViewById(R.id.progressbar_id);
         progressBar.setVisibility(View.VISIBLE);
 
+        interminateProgressBar = (ProgressBar)findViewById(R.id.interminate_progressbar_id);
+        interminateProgressBar.setVisibility(View.VISIBLE);
+        interminateProgressBar.setProgress(0);
+        interminateProgressBar.setSecondaryProgress(0);
+        interminateProgressBar.setMax(100);
+
         handler = new Handler();
         runnable = new Runnable() {
             @Override
             public void run() {
 
-                timer.cancel();
-                progressBar.setVisibility(View.GONE);
+                //timer.cancel();
+                //progressBar.setVisibility(View.GONE);
+
+                if(++i<=100)
+                {
+                    interminateProgressBar.setProgress(i);
+                    interminateProgressBar.setSecondaryProgress(i+10);
+                }else
+                {
+                    timer.cancel();
+                    //interminateProgressBar.setVisibility(View.GONE);
+                }
 
             }
         };
@@ -43,6 +60,6 @@ public class ProgressBarActivity extends AppCompatActivity {
                 handler.post(runnable);
 
             }
-        },8000,1000);
+        },8000,300);
     }
 }
