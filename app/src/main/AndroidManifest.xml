@@ -15,10 +15,10 @@
         <activity android:name=".SwitchActivity" />
         <activity android:name=".CheckBoxActivity" />
         <activity android:name=".RadioButtonActivity" />
-        <activity android:name=".ProgressBarActivity">
-
-        </activity>
+        <activity android:name=".ProgressBarActivity"></activity>
         <activity android:name=".DialogActivity">
+        </activity>
+        <activity android:name=".ConfirmationDialogActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
