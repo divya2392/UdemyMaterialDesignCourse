@@ -16,10 +16,10 @@
         <activity android:name=".CheckBoxActivity" />
         <activity android:name=".RadioButtonActivity" />
         <activity android:name=".ProgressBarActivity" />
-        <activity android:name=".DialogActivity"></activity>
-        <activity android:name=".ConfirmationDialogActivity">
-        </activity>
-        <activity android:name=".ProgressDialogActivity">
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".ConfirmationDialogActivity"/>
+        <activity android:name=".ProgressDialogActivity"/>
+        <activity android:name=".SnackBarActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
