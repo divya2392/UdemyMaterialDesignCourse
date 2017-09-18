@@ -18,7 +18,7 @@ public class ConfirmationDialogActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirmation_dialog);
 
-        builder = new AlertDialog.Builder(ConfirmationDialogActivity.this);
+        builder = new AlertDialog.Builder(ConfirmationDialogActivity.this,R.style.ConfirmationDialogTheme);
         builder.setTitle("Select the difficulty level");
         builder.setSingleChoiceItems(items, -1, new DialogInterface.OnClickListener() {
             @Override
