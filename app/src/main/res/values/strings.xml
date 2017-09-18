@@ -11,4 +11,7 @@
     <string name="radio_button">Radio Button</string>
     <string name="radio_button_1">Radio Button 1</string>
     <string name="radio_button_2">Radio Button 2</string>
+    <string name="near_by">Near by</string>
+    <string name="favorite">Favorite</string>
+    <string name="recents">Recents</string>
 </resources>

@@ -17,9 +17,10 @@
         <activity android:name=".RadioButtonActivity" />
         <activity android:name=".ProgressBarActivity" />
         <activity android:name=".DialogActivity" />
-        <activity android:name=".ConfirmationDialogActivity"/>
-        <activity android:name=".ProgressDialogActivity"/>
-        <activity android:name=".SnackBarActivity">
+        <activity android:name=".ConfirmationDialogActivity" />
+        <activity android:name=".ProgressDialogActivity" />
+        <activity android:name=".SnackBarActivity"/>
+        <activity android:name=".BottomnavActivityPartOne">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
