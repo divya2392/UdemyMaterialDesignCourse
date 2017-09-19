@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
     <color name="colorAccent">#40C4FF</color>
     <color name="colorError">#EE5252</color>
     <color name="colorRaisedBtn">#4CAF50</color>
@@ -18,4 +18,5 @@
     <color name="colorSnackBarBackground">#3F51B5</color>
     <color name="colorSnackBarText">#000000</color>
     <color name="colorSnackbarAction">#69F0AE</color>
+    <color name="colorBottomNavigation">#009688</color>
 </resources>

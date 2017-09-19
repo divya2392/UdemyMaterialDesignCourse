@@ -4,6 +4,16 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_id"
+        android:text="@string/recents_text"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -14,7 +24,11 @@
             android:layout_gravity="bottom"
             android:id="@+id/bottom_navigation_id"
             android:background="?android:attr/windowBackground"
-            app:menu="@menu/navigation_menu">
+            app:menu="@menu/navigation_menu"
+            app:itemIconTint="@color/colorAccent"
+            app:itemTextColor="@color/colorAccent"
+            app:itemBackground="@color/colorBottomNavigation"
+            app:theme="@style/BottomNavigationTheme">
         </android.support.design.widget.BottomNavigationView>
 
     </android.support.design.widget.CoordinatorLayout>

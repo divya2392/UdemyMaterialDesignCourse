@@ -19,8 +19,9 @@
         <activity android:name=".DialogActivity" />
         <activity android:name=".ConfirmationDialogActivity" />
         <activity android:name=".ProgressDialogActivity" />
-        <activity android:name=".SnackBarActivity"/>
-        <activity android:name=".BottomnavActivityPartOne">
+        <activity android:name=".SnackBarActivity" />
+        <activity android:name=".BottomnavActivityPartOne"/>
+        <activity android:name=".ViewPagerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

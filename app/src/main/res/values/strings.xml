@@ -14,4 +14,5 @@
     <string name="near_by">Near by</string>
     <string name="favorite">Favorite</string>
     <string name="recents">Recents</string>
+    <string name="recents_text">Recents Text</string>
 </resources>
