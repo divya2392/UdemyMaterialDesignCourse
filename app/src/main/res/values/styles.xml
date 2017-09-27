@@ -50,4 +50,9 @@
        <item name="colorPrimary">@color/colorBottomNavigation</item>
     </style>
 
+    <style name="ButtonTheme" parent="Widget.AppCompat.Button.Colored">
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
 </resources>

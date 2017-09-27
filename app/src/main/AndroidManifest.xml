@@ -20,8 +20,11 @@
         <activity android:name=".ConfirmationDialogActivity" />
         <activity android:name=".ProgressDialogActivity" />
         <activity android:name=".SnackBarActivity" />
-        <activity android:name=".BottomnavActivityPartOne"/>
+        <activity android:name=".BottomnavActivityPartOne" />
         <activity android:name=".ViewPagerActivity">
+
+        </activity>
+        <activity android:name=".ListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
